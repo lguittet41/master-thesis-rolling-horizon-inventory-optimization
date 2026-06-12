@@ -49,9 +49,8 @@ main(experiment_type = :diagnostic)
 
 For example:
 
-```julia
 main(experiment_type = :safety_stock)
-```
+
 
 ## Confidentiality note
 
