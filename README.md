@@ -61,9 +61,5 @@ The structure of the code is kept the same as in the thesis implementation, but 
 
 The synthetic data preserves the general structure needed to run the framework, including 24 monthly periods, 12 forecast versions per period, forecast revisions over time, and higher demand around some quarter-end periods. However, the numerical values should only be interpreted as illustrative examples and do not represent the original company data.
 
-## Confidentiality note
-
-The original thesis case study is based on company-related data. For confidentiality reasons, any public version of this repository should only include anonymized or illustrative input data.
-
 ```
 ```
