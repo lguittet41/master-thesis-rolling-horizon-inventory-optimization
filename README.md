@@ -47,10 +47,6 @@ To run the code, change the experiment type in the final line of the Julia file:
 main(experiment_type = :diagnostic)
 ````
 
-For example:
-
-main(experiment_type = :safety_stock)
-
 
 ## Confidentiality note
 
