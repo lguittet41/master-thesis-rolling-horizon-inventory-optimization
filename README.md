@@ -57,5 +57,3 @@ main(experiment_type = :safety_stock)
 
 The original thesis case study is based on company-related data. For confidentiality reasons, any public version of this repository should only include anonymized or illustrative input data.
 
-```
-```
