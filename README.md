@@ -1,3 +1,18 @@
+## Public version and anonymized data
+
+The original thesis case study is based on company-related data. For confidentiality reasons, this public version does not include the original input data.
+
+The structure of the code is kept the same as in the thesis implementation, but the sensitive input values have been replaced by synthetic or illustrative values. In particular, the following elements were modified:
+
+* the forecast matrix `forecast_versions_2024_2025`;
+* the lead-time hazard probabilities `hazard`;
+* the initial inventory level `Ir_init`;
+* the initial shipments already in transit `shipments_in_transit_init`;
+* selected cost and simulation parameters in `DEFAULT_PARAMS`.
+
+
+The synthetic data preserves the general structure needed to run the framework, including 24 monthly periods, 12 forecast versions per period, forecast revisions over time, and higher demand around some quarter-end periods. However, the numerical values should only be interpreted as illustrative examples and do not represent the original company data.
+
 ````markdown
 # Master Thesis: Rolling-Horizon Inventory Optimization
 
@@ -46,18 +61,3 @@ To run the code, change the experiment type in the final line of the Julia file:
 ```julia
 main(experiment_type = :diagnostic)
 ````
-
-## Public version and anonymized data
-
-The original thesis case study is based on company-related data. For confidentiality reasons, this public version does not include the original input data.
-
-The structure of the code is kept the same as in the thesis implementation, but the sensitive input values have been replaced by synthetic or illustrative values. In particular, the following elements were modified:
-
-* the forecast matrix `forecast_versions_2024_2025`;
-* the lead-time hazard probabilities `hazard`;
-* the initial inventory level `Ir_init`;
-* the initial shipments already in transit `shipments_in_transit_init`;
-* selected cost and simulation parameters in `DEFAULT_PARAMS`.
-
-The synthetic data preserves the general structure needed to run the framework, including 24 monthly periods, 12 forecast versions per period, forecast revisions over time, and higher demand around some quarter-end periods. However, the numerical values should only be interpreted as illustrative examples and do not represent the original company data.
-
